@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c868376bee6e2fc44956e05f8f71fc4f, type: 3}
+  m_Name: Level
+  m_EditorClassIdentifier: 
+  events:
+  - title: 
+    type: 0
+    trigger: 3
+    triggerVal: 1
+    focus: 
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Henry
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Henry
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Hugo
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Hugo
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Albert
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Albert
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Josef
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Josef
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Karl
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Karl
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Theodor
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Theodor
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Johannes
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Johannes
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Eduard
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Eduard
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Heinrich
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Heinrich
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Prof
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Prof
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 21
+    trigger: 0
+    triggerVal: 1
+    focus: 
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Prof
+    type: 11
+    trigger: 3
+    triggerVal: 1
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: Die Zeit ist zu Ende. Legt alle euer Schreibzeug beiseite.
+    expression: 0
+  - title: Camera
+    type: 12
+    trigger: 4
+    triggerVal: 1
+    focus: 
+    eventVal: 600
+    position: {x: 0, y: 30}
+    direction: {x: 0, y: 0}
+    spokenText: ...
+    expression: 6
+  - title: Prof
+    type: 11
+    trigger: 1
+    triggerVal: 1
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: ...
+    expression: 6
+  - title: Prof
+    type: 11
+    trigger: 4
+    triggerVal: 1
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: ...du auch, Hugo!
+    expression: 6
+  - title: Hugo
+    type: 11
+    trigger: 4
+    triggerVal: 1
+    focus: Hugo
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: Ja, Herr Professor!
+    expression: 2
+  - title: Wait
+    type: 0
+    trigger: 4
+    triggerVal: 1
+    focus: 
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 3
+  - title: Prof
+    type: 11
+    trigger: 0
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: "Ich hoffe, ihr hattet Spa\xDF mit den Aufgaben, die wir heute behandelt
+      haben"
+    expression: 3
+  - title: Klasse
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Klasse
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: '- Soll das Ein Scherz sein?-'
+    expression: 1
+  - title: Prof
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: "Falls ich den Test genauso gut bestanden habe wie sie die Tests
+      in dem Prototyp, dann freue ich mich schon auf das Bewerbungsgespr\xE4ch mit
+      ihnen. "
+    expression: 3
+  - title: Eduard
+    type: 9
+    trigger: 4
+    triggerVal: 2
+    focus: Eduard
+    eventVal: 0
+    position: {x: 1, y: 1}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 3
+  - title: Eduard
+    type: 11
+    trigger: 0
+    triggerVal: 1
+    focus: Eduard
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: Aber Herr Professor!!!
+    expression: 2
+  - title: Eduard
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Eduard
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: Niemand schneidet wirklich gut in ihren Tests ab.
+    expression: 2
+  - title: Prof
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: Nur zu wahr
+    expression: 0
+  - title: Prof
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "Nur ein wahres Genie kann diese Aufgaben bew\xE4ltigen"
+    expression: 0
+  - title: Prof
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "Umso mehr w\xE4re es mir eine Ehre solch ein Genie mit meinen blo\xDFen
+      Augen zu sehen."
+    expression: 0
+  - title: Theodor
+    type: 9
+    trigger: 4
+    triggerVal: 2
+    focus: Theodor
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Theodor
+    type: 11
+    trigger: 3
+    triggerVal: 2
+    focus: Theodor
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: So eine Person gibt es nicht!
+    expression: 0
+  - title: Theodor
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Theodor
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "Jemand, der solche fiesen Aufgaben meistern w\xFCrde, w\xFCrde in
+      k\xFCrzester Zeit die komplette Physik umkrempeln. "
+    expression: 0
+  - title: Theodor
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Theodor
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "So eine Person w\xFCrde  ein komplett neues Zeitalter der Physik
+      einl\xE4uten!"
+    expression: 2
+  - title: Prof
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "Richtig, v\xF6llig undenkbar."
+    expression: 0
+  - title: Prof
+    type: 11
+    trigger: 3
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "W\xE4hrend wir also auf solch ein Wunder hoffen k\xF6nnt ihr als
+      Hausaufgabe w\xE4hrend dessen die restlichen Bewerbungsunterlagen sichten."
+    expression: 3
+  - title: Prof
+    type: 11
+    trigger: 3
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: Es gibt viele Sachen, die in der kurzen Zeit nicht bis ins Spielgeschafft
+      haben.
+    expression: 3
+  - title: Prof
+    type: 11
+    trigger: 3
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: ...
+    expression: 3
+  - title: Prof
+    type: 11
+    trigger: 3
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "...Ich wei\xDF, dass auch das Abscheuen von anderen Sch\xFClern
+      mit dabei ist"
+    expression: 6
+  - title: Prof
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "...Jedenfalls kann man das Spiel jederzeit beenden, indem man durch
+      die T\xFCr aus den Klassenzimmer rausgeht."
+    expression: 3
+  - title: Prof
+    type: 11
+    trigger: 4
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "Danke f\xFCr ihre Aufmerksamkeit!"
+    expression: 3
+  - title: Eduard
+    type: 9
+    trigger: 4
+    triggerVal: 2
+    focus: Eduard
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Albert
+    type: 9
+    trigger: 4
+    triggerVal: 2
+    focus: Albert
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Albert
+    type: 17
+    trigger: 4
+    triggerVal: 2
+    focus: Albert
+    eventVal: 0
+    position: {x: 1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0

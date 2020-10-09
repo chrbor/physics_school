@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Character
+  - Ally
+  - Enemy
+  - Ground
+  - Object
+  - Factor
+  - Ghost
+  - GhostObj
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Character
+  - Background
+  - Enemy
+  - Objects
+  - CharTrigger
+  - Interactables
+  - Mouse
+  - WaitForPlayer
+  - DefaultOnly
+  - Ghost
+  - MainGhost
+  - GhostObject
+  - OV_Character
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Panel
+    uniqueID: 767447283
+    locked: 0
+  - name: Background
+    uniqueID: 2167927411
+    locked: 0
+  - name: physObject
+    uniqueID: 20179873
+    locked: 0
+  - name: Char_Layer
+    uniqueID: 2348156225
+    locked: 0
+  - name: UI
+    uniqueID: 2462098467
+    locked: 0
+  - name: Forground
+    uniqueID: 1302592971
+    locked: 0

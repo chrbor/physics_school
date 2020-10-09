@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17bac31b5c027a46b1d3a4fedb8d5df, type: 3}
+  m_Name: checkpoint_0
+  m_EditorClassIdentifier: 
+  events:
+  - title: add time
+    trigger: 0
+    triggerTime: 1
+    eventType: 5
+    focus:
+    - time
+    startPosition: {x: 32.75, y: 24.21}
+    endPosition: {x: 31.4, y: 23.4}
+    valueSet: 0
+  - title: add meter
+    trigger: 0
+    triggerTime: 0
+    eventType: 5
+    focus:
+    - size
+    startPosition: {x: 31.4, y: 23.4}
+    endPosition: {x: 27, y: 23.4}
+    valueSet: 0
+  - title: move
+    trigger: 0
+    triggerTime: 0
+    eventType: 2
+    focus: []
+    startPosition: {x: 27, y: 23.4}
+    endPosition: {x: 13.67, y: 13.2}
+    valueSet: 0
+  - title: Savepoint
+    trigger: 0
+    triggerTime: 0
+    eventType: 13
+    focus: []
+    startPosition: {x: 27, y: 23.4}
+    endPosition: {x: 13.67, y: 13.5}
+    valueSet: 0
+  - title: stop
+    trigger: 1
+    triggerTime: 4
+    eventType: 3
+    focus: []
+    startPosition: {x: 13.67, y: 13.2}
+    endPosition: {x: 13.67, y: 13.2}
+    valueSet: 0
+  - title: jump
+    trigger: 0
+    triggerTime: 1
+    eventType: 4
+    focus: []
+    startPosition: {x: 13.67, y: 13.2}
+    endPosition: {x: 13.4, y: 15.5}
+    valueSet: 30
+  - title: merge to new unit
+    trigger: 0
+    triggerTime: 1
+    eventType: 6
+    focus:
+    - mass
+    - current
+    - time
+    startPosition: {x: 13.67, y: 13.2}
+    endPosition: {x: 13.4, y: 13.5}
+    valueSet: 0
+  - title: spawnObj
+    trigger: 1
+    triggerTime: 3
+    eventType: 0
+    focus:
+    - WoodenBox
+    startPosition: {x: 13.67, y: 13.2}
+    endPosition: {x: 12, y: 13.5}
+    valueSet: 0
+  - title: move
+    trigger: 1
+    triggerTime: 3
+    eventType: 2
+    focus:
+    - mass
+    - current
+    - time
+    startPosition: {x: 13.67, y: 13.2}
+    endPosition: {x: 15, y: 13.5}
+    valueSet: 0
+  - title: move
+    trigger: 1
+    triggerTime: 3
+    eventType: 2
+    focus:
+    - mass
+    - current
+    - time
+    startPosition: {x: 13.67, y: 13.2}
+    endPosition: {x: 9.5, y: 13.5}
+    valueSet: 0
+  - title: change Size of Box
+    trigger: 1
+    triggerTime: 3
+    eventType: 7
+    focus:
+    - 0
+    startPosition: {x: 13.67, y: 13.2}
+    endPosition: {x: 9.5, y: 13.5}
+    valueSet: 1.5
+  - title: delete woodenbox
+    trigger: 1
+    triggerTime: 3
+    eventType: 1
+    focus:
+    - 0
+    startPosition: {x: 13.67, y: 13.2}
+    endPosition: {x: 9.5, y: 13.5}
+    valueSet: 1.5
+  - title: wait
+    trigger: 0
+    triggerTime: 3
+    eventType: 3
+    focus:
+    - mass
+    - current
+    - time
+    startPosition: {x: 13.67, y: 13.2}
+    endPosition: {x: 9.5, y: 13.5}
+    valueSet: 0

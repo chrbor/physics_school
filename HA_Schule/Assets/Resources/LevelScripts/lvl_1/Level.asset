@@ -1,0 +1,1137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c868376bee6e2fc44956e05f8f71fc4f, type: 3}
+  m_Name: Level
+  m_EditorClassIdentifier: 
+  events:
+  - title: 
+    type: 0
+    trigger: 3
+    triggerVal: 1
+    focus: 
+    eventVal: 1
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 21
+    trigger: 3
+    triggerVal: 1
+    focus: Story
+    eventVal: 1
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 19
+    trigger: 3
+    triggerVal: 1
+    focus: Story
+    eventVal: 1
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 10
+    trigger: 3
+    triggerVal: 1
+    focus: Johannes
+    eventVal: 1
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 10
+    trigger: 3
+    triggerVal: 0
+    focus: Eduard
+    eventVal: 1
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 9
+    trigger: 3
+    triggerVal: 0
+    focus: Theodor
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 5
+    trigger: 3
+    triggerVal: 0
+    focus: Theodor
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 9
+    trigger: 3
+    triggerVal: 0
+    focus: Karl
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: -1, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 5
+    trigger: 3
+    triggerVal: 0
+    focus: Karl
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 9
+    trigger: 2
+    triggerVal: 0
+    focus: Josef
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 5
+    trigger: 2
+    triggerVal: 0
+    focus: Josef
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 9
+    trigger: 2
+    triggerVal: 0
+    focus: Henry
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 5
+    trigger: 2
+    triggerVal: 0
+    focus: Henry
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 9
+    trigger: 2
+    triggerVal: 0
+    focus: Hugo
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 1, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 5
+    trigger: 2
+    triggerVal: 0
+    focus: Hugo
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 9
+    trigger: 2
+    triggerVal: 0
+    focus: Heinrich
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 5
+    trigger: 2
+    triggerVal: 0
+    focus: Heinrich
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: kamera
+    type: 12
+    trigger: 0
+    triggerVal: 3
+    focus: 
+    eventVal: 500
+    position: {x: 0, y: 25}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 0
+    trigger: 1
+    triggerVal: 0
+    focus: 
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: kamera
+    type: 12
+    trigger: 0
+    triggerVal: 3
+    focus: 
+    eventVal: 300
+    position: {x: 0, y: 10}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 1
+    trigger: 1
+    triggerVal: 0
+    focus: Prof
+    eventVal: 50
+    position: {x: 33, y: 19}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Prof setzt sich hin
+    type: 15
+    trigger: 0
+    triggerVal: 2
+    focus: Prof
+    eventVal: 2
+    position: {x: 20, y: 18}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Prof setzt sich hin
+    type: 2
+    trigger: 3
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: 17.8, y: 18}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Prof setzt sich hin
+    type: 8
+    trigger: 1
+    triggerVal: 2
+    focus: Prof
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Karl setzt sich hin
+    type: 15
+    trigger: 3
+    triggerVal: 0
+    focus: 
+    eventVal: 4
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Karl setzt sich hin
+    type: 9
+    trigger: 0
+    triggerVal: 1
+    focus: Karl
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Karl setzt sich hin
+    type: 6
+    trigger: 0
+    triggerVal: 0.4
+    focus: Karl
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Karl setzt sich hin
+    type: 3
+    trigger: 0
+    triggerVal: 0.4
+    focus: Karl
+    eventVal: 0
+    position: {x: 26, y: 8}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Karl setzt sich hin
+    type: 9
+    trigger: 1
+    triggerVal: 0
+    focus: Karl
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Johannes setzt sich hin
+    type: 15
+    trigger: 3
+    triggerVal: 0
+    focus: 
+    eventVal: 4
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Johannes setzt sich hin
+    type: 9
+    trigger: 0
+    triggerVal: 0.6
+    focus: Johannes
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Johannes setzt sich hin
+    type: 6
+    trigger: 0
+    triggerVal: 0.4
+    focus: Johannes
+    eventVal: 0
+    position: {x: 34, y: 11}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Johannes setzt sich hin
+    type: 3
+    trigger: 0
+    triggerVal: 0.4
+    focus: Johannes
+    eventVal: 0
+    position: {x: 34, y: 12}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Johannes setzt sich hin
+    type: 9
+    trigger: 1
+    triggerVal: 0.4
+    focus: Johannes
+    eventVal: 0
+    position: {x: 34, y: 11}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Theodor setzt sich hin
+    type: 15
+    trigger: 3
+    triggerVal: 0.4
+    focus: 
+    eventVal: 4
+    position: {x: 34, y: 11}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Theodor setzt sich hin
+    type: 9
+    trigger: 0
+    triggerVal: 0.8
+    focus: Theodor
+    eventVal: 0
+    position: {x: 34, y: 11}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Theodor setzt sich hin
+    type: 6
+    trigger: 0
+    triggerVal: 0.4
+    focus: Theodor
+    eventVal: 0
+    position: {x: 34, y: 11}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Theodor setzt sich hin
+    type: 3
+    trigger: 0
+    triggerVal: 0.4
+    focus: Theodor
+    eventVal: 0
+    position: {x: 18, y: 8}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Theodor setzt sich hin
+    type: 9
+    trigger: 1
+    triggerVal: 0
+    focus: Theodor
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Heinrich setzt sich hin
+    type: 15
+    trigger: 3
+    triggerVal: 0
+    focus: 
+    eventVal: 4
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Heinrich setzt sich hin
+    type: 9
+    trigger: 0
+    triggerVal: 0.3
+    focus: Heinrich
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Heinrich setzt sich hin
+    type: 6
+    trigger: 0
+    triggerVal: 0.4
+    focus: Heinrich
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Heinrich setzt sich hin
+    type: 3
+    trigger: 0
+    triggerVal: 0.4
+    focus: Heinrich
+    eventVal: 0
+    position: {x: 18, y: 12}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Heinrich setzt sich hin
+    type: 9
+    trigger: 1
+    triggerVal: 0
+    focus: Heinrich
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Eduard setzt sich hin
+    type: 15
+    trigger: 3
+    triggerVal: 0
+    focus: 
+    eventVal: 4
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Eduard setzt sich hin
+    type: 9
+    trigger: 0
+    triggerVal: 0.7
+    focus: Eduard
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Eduard setzt sich hin
+    type: 6
+    trigger: 0
+    triggerVal: 0.4
+    focus: Eduard
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Eduard setzt sich hin
+    type: 3
+    trigger: 0
+    triggerVal: 0.4
+    focus: Eduard
+    eventVal: 0
+    position: {x: 26, y: 12}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Eduard setzt sich hin
+    type: 9
+    trigger: 1
+    triggerVal: 0
+    focus: Eduard
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Hugo setzt sich hin
+    type: 15
+    trigger: 3
+    triggerVal: 1.1
+    focus: Hugo
+    eventVal: 6
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Hugo setzt sich hin
+    type: 9
+    trigger: 0
+    triggerVal: 1.5
+    focus: Hugo
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Hugo setzt sich hin
+    type: 6
+    trigger: 0
+    triggerVal: 0.4
+    focus: Hugo
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Hugo setzt sich hin
+    type: 3
+    trigger: 0
+    triggerVal: 0.4
+    focus: Hugo
+    eventVal: 0
+    position: {x: 24, y: -2}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Hugo setzt sich hin
+    type: 7
+    trigger: 1
+    triggerVal: 0
+    focus: Hugo
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Hugo setzt sich hin
+    type: 3
+    trigger: 0
+    triggerVal: 0.4
+    focus: Hugo
+    eventVal: 0
+    position: {x: 26, y: 4}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Hugo setzt sich hin
+    type: 9
+    trigger: 1
+    triggerVal: 0
+    focus: Hugo
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Henry setzt sich hin
+    type: 15
+    trigger: 3
+    triggerVal: 4
+    focus: Henry
+    eventVal: 4
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Henry setzt sich hin
+    type: 9
+    trigger: 0
+    triggerVal: 0.7
+    focus: Henry
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Henry setzt sich hin
+    type: 6
+    trigger: 0
+    triggerVal: 0.4
+    focus: Henry
+    eventVal: 0
+    position: {x: 34, y: 4}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Henry setzt sich hin
+    type: 3
+    trigger: 0
+    triggerVal: 0.4
+    focus: Henry
+    eventVal: 0
+    position: {x: 34, y: 4}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Henry setzt sich hin
+    type: 9
+    trigger: 1
+    triggerVal: 0
+    focus: Henry
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Josef setzt sich hin
+    type: 15
+    trigger: 3
+    triggerVal: 0
+    focus: Josef
+    eventVal: 4
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Josef setzt sich hin
+    type: 9
+    trigger: 0
+    triggerVal: 0.6
+    focus: Josef
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Josef setzt sich hin
+    type: 6
+    trigger: 0
+    triggerVal: 0.4
+    focus: Josef
+    eventVal: 0
+    position: {x: 34, y: 8}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Josef setzt sich hin
+    type: 3
+    trigger: 0
+    triggerVal: 0.4
+    focus: Josef
+    eventVal: 0
+    position: {x: 34, y: 8}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Josef setzt sich hin
+    type: 9
+    trigger: 1
+    triggerVal: 0
+    focus: Josef
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: kamera
+    type: 12
+    trigger: 0
+    triggerVal: 1
+    focus: 
+    eventVal: 100
+    position: {x: 0, y: -10}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: kamera
+    type: 12
+    trigger: 0
+    triggerVal: 3
+    focus: 
+    eventVal: 200
+    position: {x: 0, y: 10}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: 
+    type: 0
+    trigger: 1
+    triggerVal: 0
+    focus: 
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 3
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: ...
+    expression: 6
+  - title: Klasse Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 0
+    focus: Klasse
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: ...
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: ...Guten morgen Klasse
+    expression: 6
+  - title: Klasse Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 0
+    focus: Klasse
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: "WIR  W\xDCNSCHEN IHNEN EINEN \nGUTEN MORGEN, HERR PROFESSOR!"
+    expression: 0
+  - title: Prof
+    type: 9
+    trigger: 4
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 1, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Prof
+    type: 8
+    trigger: 3
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 1, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Prof Dialog Haupt senken
+    type: 11
+    trigger: 3
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: Wir denken an unseren Kaiser und senken unser Haupt
+    expression: 3
+  - title: Klasse Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 0
+    focus: Klasse
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: WIR DENKEN AN UNSEREN KAISER UND SENKEN UNSER HAUPT!
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: ...
+    expression: 0
+  - title: Klasse Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 0
+    focus: Klasse
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: ...
+    expression: 0
+  - title: Prof
+    type: 9
+    trigger: 4
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 1, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Prof
+    type: 8
+    trigger: 3
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 3
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 0, y: 0}
+    spokenText: ...Setzen!
+    expression: 0
+  - title: Theodor setzt sich
+    type: 8
+    trigger: 4
+    triggerVal: 0.1
+    focus: Theodor
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Eduard setzt sich
+    type: 8
+    trigger: 0
+    triggerVal: 0.1
+    focus: Eduard
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Johannes setzt sich
+    type: 8
+    trigger: 0
+    triggerVal: 0.1
+    focus: Johannes
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Heinrich setzt sich
+    type: 8
+    trigger: 0
+    triggerVal: 0.1
+    focus: Heinrich
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Karl setzt sich
+    type: 8
+    trigger: 0
+    triggerVal: 0.1
+    focus: Karl
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Hugo setzt sich
+    type: 8
+    trigger: 0
+    triggerVal: 0.1
+    focus: Hugo
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Henry setzt sich
+    type: 8
+    trigger: 0
+    triggerVal: 0.1
+    focus: Henry
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Josef setzt sich
+    type: 8
+    trigger: 0
+    triggerVal: 0.1
+    focus: Josef
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 0
+    triggerVal: 1
+    focus: Prof
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: "Bevor wir mit der heutigen Lektion beginnen, habe ich noch eine
+      Sache zu verk\xFCnden."
+    expression: 0
+  - title: Prof
+    type: 9
+    trigger: 4
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: 0, y: 0}
+    direction: {x: 1, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Prof
+    type: 8
+    trigger: 3
+    triggerVal: 0
+    focus: Prof
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 1, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 3
+    triggerVal: 1
+    focus: Prof
+    eventVal: 0
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: 1}
+    spokenText: Du darfst hereinkommen.
+    expression: 0
+  - title: Player
+    type: 1
+    trigger: 4
+    triggerVal: 1
+    focus: Albert
+    eventVal: 50
+    position: {x: 33, y: 18}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Player
+    type: 2
+    trigger: 0
+    triggerVal: 2
+    focus: Albert
+    eventVal: 50
+    position: {x: 33, y: 17}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Player
+    type: 2
+    trigger: 1
+    triggerVal: 1
+    focus: Albert
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Player
+    type: 9
+    trigger: 1
+    triggerVal: 1
+    focus: Albert
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Player
+    type: 4
+    trigger: 0
+    triggerVal: 0.5
+    focus: Albert
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 0
+    triggerVal: 1
+    focus: Prof
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: 0, y: -1}
+    spokenText: Das ist Albert. Er wird ab heute diese Schule besuchen.
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 1
+    focus: Prof
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: 0, y: -1}
+    spokenText: Ich erwarte von euch, das ihr ihn einbezieht und ihm hilft sich hier
+      einzuleben.
+    expression: 0
+  - title: Klasse Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 1
+    focus: Klasse
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: 0, y: -1}
+    spokenText: '!!!'
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 1
+    focus: Prof
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: 0, y: -1}
+    spokenText: Ab heute sitzt du hinten links.
+    expression: 0
+  - title: Prof Dialog
+    type: 11
+    trigger: 4
+    triggerVal: 1
+    focus: Prof
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: 0, y: -1}
+    spokenText: Du darfst dich setzen.
+    expression: 0
+  - title: Albert
+    type: 9
+    trigger: 4
+    triggerVal: 1
+    focus: Albert
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: -1, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Albert Dialog
+    type: 11
+    trigger: 3
+    triggerVal: 1
+    focus: Albert
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: -1, y: 0}
+    spokenText: Ja, Herr Professor.
+    expression: 0
+  - title: Prof
+    type: 9
+    trigger: 4
+    triggerVal: 1
+    focus: Prof
+    eventVal: 50
+    position: {x: 26, y: 17}
+    direction: {x: 1, y: 0}
+    spokenText: 
+    expression: 0
+  - title: Prof
+    type: 8
+    trigger: 3
+    triggerVal: 1
+    focus: Prof
+    eventVal: 50
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Albert
+    type: 9
+    trigger: 3
+    triggerVal: 1
+    focus: Albert
+    eventVal: 50
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: kamera
+    type: 12
+    trigger: 3
+    triggerVal: 1
+    focus: Albert
+    eventVal: 200
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: Dev
+    type: 19
+    trigger: 3
+    triggerVal: 1
+    focus: RoomLayout
+    eventVal: 200
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - title: startHub
+    type: 17
+    trigger: 1
+    triggerVal: 1
+    focus: Albert
+    eventVal: 200
+    position: {x: -1, y: 0}
+    direction: {x: 0, y: -1}
+    spokenText: 
+    expression: 0

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c868376bee6e2fc44956e05f8f71fc4f, type: 3}
+  m_Name: _Level
+  m_EditorClassIdentifier: 
+  events:
+  - type: 7
+    focus: Theodor
+    trigger: 2
+    triggerVal: 0
+    distance: 500
+    position: {x: 0, y: 1}
+    spokenText: 
+    expression: 0
+  - type: 3
+    focus: Theodor
+    trigger: 2
+    triggerVal: 0
+    distance: 0
+    position: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - type: 7
+    focus: Karl
+    trigger: 2
+    triggerVal: 0
+    distance: 0
+    position: {x: -1, y: 0}
+    spokenText: 
+    expression: 0
+  - type: 3
+    focus: Karl
+    trigger: 2
+    triggerVal: 0
+    distance: 0
+    position: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - type: 7
+    focus: Hugo
+    trigger: 2
+    triggerVal: 0
+    distance: 0
+    position: {x: 1, y: 0}
+    spokenText: 
+    expression: 0
+  - type: 3
+    focus: Hugo
+    trigger: 2
+    triggerVal: 0
+    distance: 0
+    position: {x: 0, y: 0}
+    spokenText: 
+    expression: 0
+  - type: 7
+    focus: Heinrich
+    trigger: 2
+    triggerVal: 0
+    distance: 0
+    position: {x: 0, y: -1}
+    spokenText: 
+    expression: 0
+  - type: 3
+    focus: Heinrich
+    trigger: 2
+    triggerVal: 0
+    distance: 0
+    position: {x: 0, y: 0}
+    spokenText: 
+    expression: 0

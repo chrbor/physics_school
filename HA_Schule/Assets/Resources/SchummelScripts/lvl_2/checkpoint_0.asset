@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17bac31b5c027a46b1d3a4fedb8d5df, type: 3}
+  m_Name: checkpoint_0
+  m_EditorClassIdentifier: 
+  events:
+  - title: spawnBigBox
+    trigger: 0
+    triggerTime: 0
+    eventType: 0
+    focus:
+    - WoodenBox
+    startPosition: {x: -12.864933, y: 9.049298}
+    endPosition: {x: -3.33, y: 9}
+    valueSet: 0
+  - title: MakeBoxBig
+    trigger: 0
+    triggerTime: 0
+    eventType: 14
+    focus:
+    - 0
+    startPosition: {x: -3.33, y: 9}
+    endPosition: {x: -3.33, y: 9}
+    valueSet: 2
+  - title: SpawnSmallBox
+    trigger: 0
+    triggerTime: 0
+    eventType: 0
+    focus:
+    - WoodenBox
+    startPosition: {x: -3.33, y: 9}
+    endPosition: {x: -3.33, y: 9}
+    valueSet: 0
+  - title: MakeBoxSmall
+    trigger: 0
+    triggerTime: 0
+    eventType: 14
+    focus:
+    - 1
+    startPosition: {x: -3.33, y: 9}
+    endPosition: {x: -3.33, y: 9}
+    valueSet: 1
+  - title: MoveToBox
+    trigger: 0
+    triggerTime: 0
+    eventType: 2
+    focus:
+    - 1
+    startPosition: {x: -3.33, y: 9}
+    endPosition: {x: -7, y: 9}
+    valueSet: 1
+  - title: ShrinkBigBox
+    trigger: 0
+    triggerTime: 0
+    eventType: 7
+    focus:
+    - 0
+    startPosition: {x: -7, y: 9}
+    endPosition: {x: -7, y: 9}
+    valueSet: 0.5
+  - title: Jump
+    trigger: 0
+    triggerTime: 0
+    eventType: 4
+    focus:
+    - 0
+    startPosition: {x: -7, y: 9}
+    endPosition: {x: -7, y: 9}
+    valueSet: 60

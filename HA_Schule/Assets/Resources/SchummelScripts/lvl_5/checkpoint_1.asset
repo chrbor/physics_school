@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17bac31b5c027a46b1d3a4fedb8d5df, type: 3}
+  m_Name: checkpoint_1
+  m_EditorClassIdentifier: 
+  events:
+  - title: add time
+    trigger: 0
+    triggerTime: 2
+    eventType: 5
+    focus:
+    - time
+    startPosition: {x: 0, y: 0}
+    endPosition: {x: 31.4, y: 23.4}
+    valueSet: 0
+  - title: add meter
+    trigger: 0
+    triggerTime: 0
+    eventType: 2
+    focus:
+    - size
+    startPosition: {x: 0, y: 0}
+    endPosition: {x: 27, y: 23.4}
+    valueSet: 0
+  - title: move
+    trigger: 0
+    triggerTime: 0
+    eventType: 2
+    focus: []
+    startPosition: {x: 0, y: 0}
+    endPosition: {x: 13.67, y: 13.2}
+    valueSet: 0
+  - title: jump
+    trigger: 0
+    triggerTime: 2
+    eventType: 4
+    focus: []
+    startPosition: {x: 0, y: 0}
+    endPosition: {x: 13.4, y: 15.5}
+    valueSet: 0
